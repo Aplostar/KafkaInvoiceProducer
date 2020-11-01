@@ -1,0 +1,1 @@
+/home/aplostar/kafka_2.13-2.6.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 3 --partitions 3 --topic pos --config min.insync.replicas=2
